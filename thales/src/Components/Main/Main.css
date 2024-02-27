@@ -1,0 +1,63 @@
+main{
+    /* border: solid 1px red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+.boxCount{
+    border: solid 2px var(--primary);
+    border-radius: 5px;
+    box-shadow: -2px 3px 0 var(--cyan), -4px 6px 0 var(--primary);
+    height: 50vh;
+    width: 40vw;
+    background-color: var(--purple-rose);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    /* border: solid 1px red; */
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.count h2 {
+    font-size: 2rem;
+    color: var(--cyan);
+}
+
+.count p {
+    color: var(--white);
+    font-size: 2.5rem;
+}
+
+.actions{
+    /* border: solid 1px red; */
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    width: 29%;
+    border: solid 2px #000;
+    border-radius: 5px;
+    background-color: var(--secondary);
+    box-shadow: -2px 3px 0  var(--cyan), -4px 6px 0 #000;
+    color: #313131;
+    font-weight: 600;
+    /* font-size: clamp(8px, 5vw, 1rem); */
+}
+
+button:active{
+    box-shadow:inset -4px 4px 0 var(--purple-rose);
+    font-size: 0.7rem;
+}

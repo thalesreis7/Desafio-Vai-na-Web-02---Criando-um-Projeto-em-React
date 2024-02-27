@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', sans-serif;
+}
+
+:root{
+  --primary:  rgb(41, 24, 41);
+  --secondary: rgb(174, 119, 224);
+  --cyan: rgb(30, 204, 204);
+  --white: rgba(255, 255, 255, 0.877);
+  --purple-rose: rgb(78, 49, 78);
+
+}
