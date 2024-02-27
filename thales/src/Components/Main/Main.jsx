@@ -3,9 +3,9 @@ import './Main.css'
 
 export default function Main() {
 
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-    const incrementCount = () =>{
+  const incrementCount = () =>{
     setTimeout(()=>{
       setCount( (count) => count +1)
     },1000);
