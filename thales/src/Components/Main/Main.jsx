@@ -7,16 +7,16 @@ export default function Main() {
 
   const incrementCount = () =>{
     setTimeout(()=>{
-      setCount( count +1)
+      setCount( (count) => count +1)
     },1000);
   }
 
   const decrementCount = () =>{
     setTimeout(()=>{
       if(count > 0){
-        setCount(count -1)  
+        setCount((count) => count -1)  
       }
-    }, 1000)
+    },1000)
   }
 
   const reset = () =>{
