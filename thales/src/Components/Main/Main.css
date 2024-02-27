@@ -60,4 +60,5 @@ main{
 button:active{
     box-shadow:inset -4px 4px 0 var(--purple-rose);
     font-size: 0.7rem;
+    color: var(--cyan);
 }
